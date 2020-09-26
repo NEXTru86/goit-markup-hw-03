@@ -1,0 +1,251 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --title-color-white-them: #212121;
+    --title-color-dark-theme: #FFFFFF;
+    --text-color: #757575;
+    --accent-text-color: #f32121;
+    --text-btn-white-theme: #212121;
+    --text-btn-dark-theme: #FFFFFF;
+    --active-text-btn-white-theme: #FFFFFF;
+    --active-text-btn-dark-theme: #212121;
+      }
+
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+    color: var(--text-color);
+    background-color: #ffffff;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+/* COMPONENTS */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color-white-them);
+}
+
+
+/* END COMPONENTS */
+
+/* HEADER */
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-part {
+    color: var(--accent-text-color);
+}
+
+.navigation-list-link,
+.address-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--title-color-white-them);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-item:hover,
+.address-list-item:focus {
+    color: var(--accent-text-color);
+}
+
+.navigation-list-link.active {
+    color: var(--accent-text-color);
+}
+
+/* END HEADER */
+
+/* MAIN SECTION */
+
+.main-section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-section {
+    background: #2F303A;
+}
+
+.hero-btn {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-btn-dark-theme);
+    background: #2196F3;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--active-text-btn-dark-theme);
+    background: #FFFFFF;
+}
+
+/* END MAIN SECTION */
+
+/* OUR ADVENTAGES SECTION*/
+
+.our-adventages-title {
+    display: none;
+}
+
+.adventages-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color-white-them);
+}
+
+.adventages-text {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+/* END OUR ADVENTAGES SECTION*/
+
+/* WHAT ARE WE DOING SECTION */
+
+
+
+/* WHAT ARE WE DOING SECTION */
+
+/* OUR TEAM SECTION */
+
+.our-team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color-white-them);
+}
+
+.our-team-text {
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* END OUR TEAM SECTION */
+
+/* PORTFOLIO SECTION */
+
+.portfolio-title {
+    display: none;
+}
+
+.portfolio-filter-btn {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: var(--text-btn-white-theme);
+    background: #F5F4FA;
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+    color: var(--active-text-btn-white-theme);
+    background: #2196F3;
+}
+
+.project-item-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.000;
+    letter-spacing: 0.06em;
+    color: var(--title-color-white-them);
+}
+
+.project-item-text {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+
+/* END PORTFOLIO SECTION */
+
+/* FOOTER */
+
+.logo.logo-dark-theme {
+    color: #FFFFFF;
+}
+
+.footer-list-address {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-list-mail,
+.footer-list-tel {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.footer-list-address:hover,
+.footer-list-address:focus,
+.footer-list-mail:hover,
+.footer-list-mail:focus,
+.footer-list-tel:hover,
+.footer-list-tel:focus {
+    color: var(--accent-text-color);
+}
+
+/* END FOOTER */
