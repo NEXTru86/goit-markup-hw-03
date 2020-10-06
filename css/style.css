@@ -215,7 +215,7 @@ img {
 
 /* OUR ADVENTAGES SECTION*/
 
-.our-adventages-section.container {
+.our-adventages-section .container {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -255,7 +255,7 @@ img {
 
 /* WHAT ARE WE DOING SECTION */
 
-.what-are-we-doing-section.container {
+.what-are-we-doing-section .container {
     padding-bottom: 94px;
 }
 
