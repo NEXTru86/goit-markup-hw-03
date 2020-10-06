@@ -146,7 +146,14 @@ img {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+}
+
+.navigation-list-link {
     color: var(--title-color-white-them);
+}
+
+.address-link-item {
+    color: var(--text-color);
 }
 
 .navigation-list-link:hover,
